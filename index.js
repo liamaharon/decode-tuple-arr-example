@@ -9,4 +9,4 @@ const input = '0x7e1d98080000000000000000000000000000000000000000000000000000000
 
 const decoded = decoder.decodeData(input);
 
-console.log(decoded);
+console.log(JSON.stringify(decoded, null, 2));
